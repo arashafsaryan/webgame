@@ -1,0 +1,35 @@
+.mainNav {
+  display: none !important;
+}
+.resNav {
+  display: block !important;
+}
+@media (min-width: 768px) {
+  .mainNav {
+    display: flex !important;
+  }
+  .resNav {
+    display: none !important;
+  }
+}
+.resNav .wrapperResNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.shoppingCart {
+  position: relative;
+}
+.shoppingCart svg {
+  font-size: 25px;
+  color: #ffffff;
+}
+.shoppingCart span {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  font-size: 10px;
+  background-color: #6c5dd3;
+  padding: 1px 4px;
+  border-radius: 50%;
+}
